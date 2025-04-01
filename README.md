@@ -31,14 +31,14 @@
 
 1. Клонируйте репозиторий:
 ```bash
-git clone https://github.com/your-username/kinomax.git
+git clone https://github.com/timka30/kinomax.git
 ```
 
 2. Настройте веб-сервер (Apache/Nginx) для работы с PHP
 
-3. Создайте базу данных и импортируйте структуру из файла `database.sql`
+3. Создайте базу данных и импортируйте структуру из файла `kinomax.sql`
 
-4. Настройте подключение к базе данных в файле `config/database.php`
+4. Настройте подключение к базе данных в файле `vendor/db.php`
 
 5. Запустите проект через веб-сервер
 
@@ -60,7 +60,7 @@ kinomax/
 
 - PHP 7.4 или выше
 - MySQL 5.7 или выше
-- Apache/Nginx
+- Apache/Nginx (не важно)
 - mod_rewrite (для Apache)
 
 ## Безопасность
