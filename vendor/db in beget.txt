@@ -1,0 +1,14 @@
+<?php
+
+// Параметры подключения к базе данных
+$host = 'localhost'; // Или ваш хост
+$dbname = 'j951408h_kinomax'; // Имя базы данных
+$user = 'j951408h_kinomax'; // Имя пользователя
+$password = 'Admin123!'; // Пароль пользователя
+$charset = 'utf8mb4'; // Кодировка (рекомендуется utf8mb4)
+
+// Создаем подключение и сохраняем в переменную $pdo
+$pdo = new mysqli($host, $user, $password, $dbname);
+$pdo = new PDO('mysql:host=localhost;dbname=j951408h_kinomax', 'j951408h_kinomax', 'Admin123!');
+
+?>
