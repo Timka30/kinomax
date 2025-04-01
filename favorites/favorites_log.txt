@@ -1,0 +1,126 @@
+
+=== Новый запрос 2025-04-01 07:47:58 ===
+IP: 127.0.0.1
+Cookies: Array
+(
+    [_ym_uid] => 1738751000534164052
+    [_ym_d] => 1738751000
+    [_ym_isad] => 1
+    [PHPSESSID] => q7unct0gj3eqqinmefaq21uc3k7qafrb
+    [login] => timka
+)
+
+POST: Array
+(
+    [id] => 4789626
+    [type] => serial
+    [check_only] => 1
+)
+
+
+=== Новый запрос 2025-04-01 07:47:58 ===
+IP: 127.0.0.1
+Cookies: Array
+(
+    [_ym_uid] => 1738751000534164052
+    [_ym_d] => 1738751000
+    [_ym_isad] => 1
+    [PHPSESSID] => q7unct0gj3eqqinmefaq21uc3k7qafrb
+    [login] => timka
+)
+
+POST: Array
+(
+    [id] => 4789626
+    [type] => serial
+    [check_only] => 1
+)
+
+
+=== Новый запрос 2025-04-01 07:48:02 ===
+IP: 127.0.0.1
+Cookies: Array
+(
+    [_ym_uid] => 1738751000534164052
+    [_ym_d] => 1738751000
+    [_ym_isad] => 1
+    [PHPSESSID] => q7unct0gj3eqqinmefaq21uc3k7qafrb
+    [login] => timka
+)
+
+POST: Array
+(
+    [id] => 4789626
+    [type] => serial
+    [title] => Блич: Тысячелетняя кровавая война
+    [action] => add
+    [poster] => https://kinopoiskapiunofficial.tech/images/posters/kp/4789626.jpg
+    [year] => 2022
+)
+
+Действие: add
+Результат: Успешно (347 байт)
+Статус: added
+
+=== Новый запрос 2025-04-01 07:48:11 ===
+IP: 127.0.0.1
+Cookies: Array
+(
+    [_ym_uid] => 1738751000534164052
+    [_ym_d] => 1738751000
+    [_ym_isad] => 1
+    [PHPSESSID] => q7unct0gj3eqqinmefaq21uc3k7qafrb
+    [login] => timka
+)
+
+POST: Array
+(
+    [id] => 280961
+    [type] => film
+    [check_only] => 1
+)
+
+
+=== Новый запрос 2025-04-01 07:48:11 ===
+IP: 127.0.0.1
+Cookies: Array
+(
+    [_ym_uid] => 1738751000534164052
+    [_ym_d] => 1738751000
+    [_ym_isad] => 1
+    [PHPSESSID] => q7unct0gj3eqqinmefaq21uc3k7qafrb
+    [login] => timka
+)
+
+POST: Array
+(
+    [id] => 280961
+    [type] => film
+    [check_only] => 1
+)
+
+
+=== Новый запрос 2025-04-01 07:48:18 ===
+IP: 127.0.0.1
+Cookies: Array
+(
+    [_ym_uid] => 1738751000534164052
+    [_ym_d] => 1738751000
+    [_ym_isad] => 1
+    [PHPSESSID] => q7unct0gj3eqqinmefaq21uc3k7qafrb
+    [login] => timka
+)
+
+POST: Array
+(
+    [id] => 280961
+    [type] => film
+    [title] => 5 сантиметров в секунду
+    [action] => add
+    [poster] => https://kinopoiskapiunofficial.tech/images/posters/kp/280961.jpg
+    [year] => 2007
+)
+
+Действие: add
+Результат: Успешно (668 байт)
+Статус: added

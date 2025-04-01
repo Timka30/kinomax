@@ -1,0 +1,416 @@
+html {
+    padding: 0;
+    margin: 0;
+    background-color: #09092c;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato' !important;
+}
+
+.stroka-one {
+    width: auto;
+    display: flex;
+}
+
+.prod-posm p {
+    color: gray;
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+.prod-posm h3 {
+    margin-top: 10px;
+    margin-left: 12.5px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.prod-posm a {
+    text-decoration: none;
+    color: white;
+}
+
+.prod-posm {
+    margin-top: 20px;
+    width: 350px;
+    height: 120px;
+    border-radius: 20px;
+    background-color: #161437;
+    border: 1px solid darkblue;
+    transition: 0.5s;
+}
+
+.prod-posm:hover {
+    transform: scale(1.1);
+}
+
+.my-kino a {
+    text-decoration: none;
+    color: white;
+}
+
+.my-kino p {
+    color: gray;
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 10px;
+    width: 120px;
+}
+
+.my-kino h3 {
+    margin-top: 10px;
+    margin-left: 12.5px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.my-kino {
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 175px;
+    height: 120px;
+    border-radius: 20px;
+    background-color: #161437;
+    border: 1px solid darkblue;
+    transition: 0.5s;
+}
+
+.my-kino:hover {
+    transform: scale(1.1);
+}
+
+.platezhi a {
+    text-decoration: none;
+    color: white;
+}
+
+.platezhi p {
+    color: gray;
+    position: absolute;
+    margin-left: 10px;
+    width: 120px;
+}
+
+.platezhi h3 {
+    margin-top: 10px;
+    margin-left: 12.5px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.platezhi {
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 175px;
+    height: 120px;
+    border-radius: 20px;
+    background-color: #161437;
+    border: 1px solid darkblue;
+    transition: 0.5s;
+}
+
+.platezhi:hover {
+    transform: scale(1.1);
+}
+
+.sertivication a {
+    text-decoration: none;
+    color: white;
+}
+
+.sertivication p {
+    color: gray;
+    position: absolute;
+    margin-left: 10px;
+    width: 120px;
+}
+
+.sertivication h3 {
+    margin-top: 10px;
+    margin-left: 12.5px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sertivication {
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 350px;
+    height: 120px;
+    border-radius: 20px;
+    background-color: #161437;
+    border: 1px solid darkblue;
+    transition: 0.5s;
+}
+
+.sertivication:hover {
+    transform: scale(1.1);
+}
+
+.stroka-two {
+    display: flex;
+}
+
+.use-promo a {
+    text-decoration: none;
+    color: white;
+}
+
+.use-promo p {
+    color: gray;
+    position: absolute;
+    margin-left: 10px;
+    width: 120px;
+}
+
+.use-promo h3 {
+    margin-top: 10px;
+    margin-left: 12.5px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.use-promo {
+    margin-top: 20px;
+    width: 175px;
+    height: 120px;
+    border-radius: 20px;
+    background-color: #161437;
+    border: 1px solid darkblue;
+    transition: 0.5s;
+}
+
+.use-promo:hover {
+    transform: scale(1.1);
+}
+
+.bonus-prog a {
+    text-decoration: none;
+    color: white;
+}
+
+.bonus-prog p {
+    color: gray;
+    position: absolute;
+    margin-left: 10px;
+    width: 120px;
+}
+
+.bonus-prog h3 {
+    margin-top: 10px;
+    margin-left: 12.5px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bonus-prog {
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 175px;
+    height: 120px;
+    border-radius: 20px;
+    background-color: #161437;
+    border: 1px solid darkblue;
+    transition: 0.5s;
+}
+
+.bonus-prog:hover {
+    transform: scale(1.1);
+}
+
+.izbrannoe a {
+    text-decoration: none;
+    color: white;
+}
+
+.izbrannoe p {
+    color: gray;
+    position: absolute;
+    margin-left: 10px;
+    width: 120px;
+}
+
+.izbrannoe h3 {
+    margin-top: 10px;
+    margin-left: 12.5px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.izbrannoe {
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 350px;
+    height: 120px;
+    border-radius: 20px;
+    background-color: #161437;
+    border: 1px solid darkblue;
+    transition: 0.5s;
+}
+
+.izbrannoe:hover {
+    transform: scale(1.1);
+}
+
+.my-device a {
+    text-decoration: none;
+    color: white;
+}
+
+.my-device p {
+    color: gray;
+    position: absolute;
+    margin-left: 10px;
+    width: 120px;
+}
+
+.my-device h3 {
+    margin-top: 10px;
+    margin-left: 12.5px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.my-device {
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 175px;
+    height: 120px;
+    border-radius: 20px;
+    background-color: #161437;
+    border: 1px solid darkblue;
+    transition: 0.5s;
+}
+
+.my-device:hover {
+    transform: scale(1.1);
+}
+
+.settings a {
+    text-decoration: none;
+    color: white;
+}
+
+.settings p {
+    color: gray;
+    position: absolute;
+    margin-left: 10px;
+    width: 120px;
+}
+
+.settings h3 {
+    margin-top: 10px;
+    margin-left: 12.5px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.settings {
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 175px;
+    height: 120px;
+    border-radius: 20px;
+    background-color: #161437;
+    border: 1px solid darkblue;
+    transition: 0.5s;
+}
+.div-media{
+     display: flex;
+}
+
+.settings:hover {
+    transform: scale(1.1);
+}
+.btn-acc{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+.btn-acc button{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px; 
+    height: 40px;
+    margin-top: 50px
+}
+.btn-s-adm{
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+}
+.kirpich{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.h2-account{
+    margin-top: 50px; 
+    font-size: 32px;
+}
+
+@media (max-width: 1230px) {
+    .my-kino, .platezhi{
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+    .stroka-one {
+        flex-direction: column;
+    }
+    .stroka-two {
+        flex-direction: column;
+    }
+    .stroka-one, .stroka-two{
+        align-items:center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .kirpich{
+        display: block;
+    }
+    .btn-acc{
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px; 
+        margin-top: 0px
+    }
+    .div-media{
+        display: flex;
+        margin-left: -50px;
+    }
+    .platezhi{
+        margin-left: 10px;
+    }
+    .sertivication{
+        margin-left: 0px;    
+    }
+    .use-promo{
+        margin-left: 50px;
+        margin-right: 0px;
+    }
+    .bonus-prog{
+        margin-left: 10px;
+    }
+    .bonus-prog, .use-promo{
+        margin-top: 0px;
+    }
+    .izbrannoe{
+        margin-left: 0px;
+    }
+    .settings{
+        margin-left: 10px;
+    }
+    #stroka-3{
+        margin-top: -12.5px;
+    }
+    .h2-account{
+        margin-top: 50px; 
+        font-size: 32px;
+        text-align: center;
+    }
+}

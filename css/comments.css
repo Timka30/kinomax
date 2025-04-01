@@ -1,0 +1,337 @@
+/* Стили для системы комментариев */
+
+.comments-section {
+    margin-top: 40px;
+    width: 100%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.comments-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.comments-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Стили для статистики */
+#comments-stats {
+    padding: 10px;
+}
+
+.stats-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rating-value {
+    font-size: 28px;
+    font-weight: bold;
+    color: #e50914;
+}
+
+.rating-count {
+    font-size: 14px;
+    color: #aaa;
+    margin-bottom: 5px;
+}
+
+/* Стили для формы */
+#comment-form {
+    margin-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+#comment-form h3 {
+    margin-top: 0;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group textarea {
+    width: 100%;
+    min-height: 100px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.form-group textarea:focus {
+    outline: none;
+    border-color: rgba(229, 9, 20, 0.5);
+}
+
+.rating-input {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.star {
+    font-size: 24px;
+    cursor: pointer;
+    color: #555;
+}
+
+.star.filled, .star.selected {
+    color: #e50914;
+}
+
+.star.hover {
+    color: #e53935;
+}
+
+.star.empty {
+    color: #555;
+}
+
+button.submit-comment {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button.submit-comment:hover {
+    background-color: #b20710;
+}
+
+/* Стили для списка комментариев */
+#comments-container {
+    margin-top: 20px;
+}
+
+.no-comments {
+    text-align: center;
+    padding: 30px;
+    color: #aaa;
+    font-style: italic;
+}
+
+.comment {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.comment-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.comment-user {
+    font-weight: bold;
+    color: #fff;
+}
+
+.comment-rating .stars {
+    display: flex;
+    gap: 2px;
+}
+
+.comment-rating .star {
+    font-size: 16px;
+    cursor: default;
+}
+
+.comment-text {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    color: #ddd;
+    word-wrap: break-word;
+}
+
+.comment-date {
+    font-size: 12px;
+    color: #888;
+    text-align: right;
+}
+
+button.delete-comment {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    color: #888;
+    font-size: 18px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+button.delete-comment:hover {
+    color: #e50914;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .comments-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    #comments-stats {
+        margin-top: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .stats-box {
+        flex-direction: row;
+        gap: 15px;
+        align-items: center;
+    }
+    
+    .form-group textarea {
+        min-height: 80px;
+    }
+    
+    .rating-input {
+        margin-bottom: 10px;
+    }
+    
+    .star {
+        font-size: 20px;
+    }
+}
+
+/* Адаптивность для телефонов */
+@media (max-width: 480px) {
+    .comments-section {
+        padding: 0 10px;
+    }
+    
+    .comments-title {
+        font-size: 20px;
+    }
+    
+    .stats-box {
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    .rating-value {
+        font-size: 24px;
+    }
+    
+    .rating-count {
+        font-size: 12px;
+    }
+    
+    #comment-form {
+        padding: 15px;
+    }
+    
+    .form-group textarea {
+        min-height: 60px;
+        font-size: 14px;
+        width: 93%;
+    }
+    
+    .rating-input {
+        gap: 3px;
+    }
+    
+    .star {
+        font-size: 18px;
+    }
+    
+    button.submit-comment {
+        width: 100%;
+        padding: 8px;
+        font-size: 14px;
+    }
+    
+    .comment {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .comment-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .comment-rating {
+        margin-top: 5px;
+    }
+    
+    .comment-text {
+        font-size: 14px;
+    }
+    
+    .comment-date {
+        font-size: 10px;
+    }
+    
+    button.delete-comment {
+        top: 10px;
+        right: 10px;
+        font-size: 16px;
+    }
+    
+    .auth-message {
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+/* Адаптивность для очень маленьких экранов */
+@media (max-width: 320px) {
+    .comments-title {
+        font-size: 18px;
+    }
+    
+    .rating-value {
+        font-size: 20px;
+    }
+    
+    .star {
+        font-size: 16px;
+    }
+    
+    .form-group label {
+        font-size: 14px;
+    }
+    
+    .form-group textarea {
+        font-size: 13px;
+    }
+    
+    .comment-text {
+        font-size: 13px;
+    }
+} 
